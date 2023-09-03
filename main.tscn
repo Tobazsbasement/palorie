@@ -8,21 +8,27 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="main_background" type="ColorRect" parent="."]
 custom_minimum_size = Vector2(576, 1024)
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -536.0
+offset_bottom = -984.0
 color = Color(0.882353, 0.886275, 0.882353, 1)
 
-[node name="ColorRect2" type="ColorRect" parent="."]
+[node name="lower_background" type="ColorRect" parent="."]
 custom_minimum_size = Vector2(576, 0)
-layout_mode = 0
-offset_top = 947.0
-offset_right = 576.0
-offset_bottom = 1023.0
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.925
+anchor_right = 1.0
+anchor_bottom = 0.999
+offset_top = -0.200073
+offset_bottom = 0.0239258
 
-[node name="Button" type="Button" parent="."]
+[node name="recept_button" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -35,7 +41,7 @@ grow_horizontal = 2
 grow_vertical = 2
 text = "dina recept"
 
-[node name="Button2" type="Button" parent="."]
+[node name="meal_button" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -48,7 +54,7 @@ grow_horizontal = 2
 grow_vertical = 2
 text = "Make a meal"
 
-[node name="Button3" type="Button" parent="."]
+[node name="profile_button" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
