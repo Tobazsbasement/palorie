@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://descak4f77n56"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(576, 1024)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0.882353, 0.886275, 0.882353, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(576, 0)
+layout_mode = 0
+offset_top = 947.0
+offset_right = 576.0
+offset_bottom = 1023.0
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 33.0
+offset_top = 963.0
+offset_right = -424.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "dina recept"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 234.0
+offset_top = 963.0
+offset_right = -223.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Make a meal"
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 423.0
+offset_top = 963.0
+offset_right = -34.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Profil"
