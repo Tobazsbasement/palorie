@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://descak4f77n56"]
+[gd_scene load_steps=2 format=3 uid="uid://descak4f77n56"]
+
+[ext_resource type="Texture2D" uid="uid://bsot83gc1moae" path="res://ikoner/search.png" id="1_fsj3g"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -66,3 +68,13 @@ offset_bottom = -20.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "Profil"
+
+[node name="search_for_food" type="Button" parent="."]
+layout_mode = 0
+offset_left = 505.0
+offset_top = 27.0
+offset_right = 549.0
+offset_bottom = 71.0
+icon = ExtResource("1_fsj3g")
+flat = true
+expand_icon = true
