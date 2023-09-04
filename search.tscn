@@ -36,7 +36,7 @@ offset_top = 52.0
 offset_right = 549.0
 offset_bottom = 104.0
 theme = SubResource("Theme_75pw6")
-alignment = 1
+text_direction = 1
 
 [node name="Search" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0.239216)

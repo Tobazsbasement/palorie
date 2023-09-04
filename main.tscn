@@ -90,10 +90,10 @@ expand_icon = true
 [node name="water_glass" type="Button" parent="."]
 clip_contents = true
 layout_mode = 0
-offset_left = 504.0
-offset_top = 962.0
-offset_right = 1130.0
-offset_bottom = 1532.0
+offset_left = 505.0
+offset_top = 964.0
+offset_right = 1119.0
+offset_bottom = 1509.0
 scale = Vector2(0.08, 0.08)
 icon = ExtResource("3_6vsoa")
 flat = true
