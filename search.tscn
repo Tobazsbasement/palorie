@@ -1,6 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://cituast3vff2m"]
+[gd_scene load_steps=4 format=3 uid="uid://cituast3vff2m"]
 
 [ext_resource type="Texture2D" uid="uid://bsot83gc1moae" path="res://ikoner/search.png" id="1_jantc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x3i7m"]
+bg_color = Color(0.756863, 0.768627, 1, 0.164706)
+corner_radius_top_left = 40
+corner_radius_top_right = 40
+corner_radius_bottom_right = 40
+corner_radius_bottom_left = 40
+
+[sub_resource type="Theme" id="Theme_75pw6"]
+LineEdit/styles/normal = SubResource("StyleBoxFlat_x3i7m")
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -25,6 +35,7 @@ offset_left = 29.0
 offset_top = 52.0
 offset_right = 549.0
 offset_bottom = 104.0
+theme = SubResource("Theme_75pw6")
 alignment = 1
 
 [node name="Search" type="Sprite2D" parent="."]
